@@ -1,0 +1,7 @@
+<library path="lib/libpodi_robot_human_coupled_planner">
+  <class name="podi_robot_human_coupled_planner/GlobalPlanner" type="podi_robot_human_coupled_planner::GlobalPlanner" base_class_type="podi_nav_core::BaseGlobalPlanner">
+    <description>
+      A implementation of a global planner that takes into account predicted human location when planning trajectories
+    </description>
+  </class>
+</library>

@@ -1,0 +1,29 @@
+<package>
+
+  <name>podi_navigation_helpers</name>
+  <version>1.14.0</version>
+  <description>
+     Helper for podi navigation
+  </description>
+  <maintainer email="arnanava@alumni.cmu.edu">Amal Nanavati</maintainer>
+  <license>BSD</license>
+
+  <author>Amal Nanavati</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>costmap_2d</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>eigen</build_depend>
+
+  <run_depend>costmap_2d</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>message_generation</run_depend>
+  <run_depend>eigen</run_depend>
+
+</package>

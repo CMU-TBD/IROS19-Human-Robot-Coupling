@@ -1,0 +1,6 @@
+geometry_msgs/PoseStamped start
+geometry_msgs/PoseArray goals
+---
+uint8 plan_found
+string error_message
+geometry_msgs/PoseStamped[] path
